@@ -1,0 +1,25 @@
+html, body{
+  background: none!important;
+  height: 100%;
+}
+body .main-background{
+  background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand{
+  color: #ffffff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #ffffff!important;
+}
+.navbar-default .navbar-toggle{
+  border-color: #ffffff!important;
+}
+
+.navbar.navbar-default,
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: #20a533;
+  color: #ffffff;
+}
