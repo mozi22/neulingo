@@ -1,54 +1,13 @@
-<div ng-controller="mainController" class="container">
-    <div class="row section-main-header">
-        <div class="col-md-6 app-icon">Travely</div>
-        <div class="col-md-offset-2 col-md-1 main-nav-link">
-            <a href="/#login">Login</a>
-        </div>
-        <div class="col-md-1 main-nav-link">
-            <a href="/#login">Sign Up</a>
-        </div>
-        <div class="col-md-1 main-nav-link">
-            <a href="/#login">About Us</a>
-        </div>
-    </div>
+<div class="main-background">
+    <div ng-controller="mainController" class="wrapper">
+        <nav-bar></nav-bar>
 
-    <div class="row section-margin section-main-quotes">
-        <div class="col-md-12 one-liner">Pay less travel more</div>
-    </div>
-    <div class="row section-main-quotes">
-        <div class="col-md-7 quote">
-            “Travel makes one modest. You see what a tiny place you occupy in the world.” – Gustave Flaubert 
-        </div>
-    </div>
-
-    <div class="row section-margin section-main-input-details">
-        <div class="col-md-4 input-section-row-1">
-            <input type="text" placeholder="From...">
-        </div>
-        <div class="col-md-4 input-section-row-1">
-            <input type="text" placeholder="To...">
-        </div>
-        <div class="col-md-4 input-section-row-1">
-            <input type="text" placeholder="Budget (optional)">
-        </div>
-
-        <div class="col-md-4 input-section-row-1">
-            <input type="text" placeholder="Departure date..." class="nativedatepicker calendar-box">
-        </div>
-        <div class="col-md-4 input-section-row-1">
-            <input type="text" placeholder="Arrival date..." class="nativedatepicker calendar-box">
-        </div>
-        <div class="col-md-2 input-section-row-1">
-            <select class="person-select">
-                <option>1 Person</option>
-                <option>2 Persons</option>
-                <option>3 Persons</option>
-                <option>4 Persons</option>
-                <option>5 Persons</option>
-            </select>
-        </div>
-        <div class="col-md-2 input-section-row-1">
-            <input type="button" value="Plan" class="btn-plan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-4 col-lg-4 col-xs-offset-2 col-xs-4 loginBox">
+                    <input type="text" class="email elastic" placeholder="Your Email ..." />
+                </div>
+            </div>
         </div>
     </div>
 </div>

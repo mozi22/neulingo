@@ -1,74 +1,31 @@
-body{
-  padding-top: 5%;
-  background: none!important;
-}
-body .container .row{
-   font-family: "Brown";
-   color: #ffffff;
-}
-body .container .section-main-header .col-md-6.app-icon{
-   font-family: "Forte";
-   font-size: 56px;
+html, body{
+  height: 100%;
+  background-color: #ecf0f1 !important;
 }
 
-body .container .section-main-header .col-md-1.main-nav-link{
-  padding-top: 2.5%;
-}
-body .container .section-main-header .col-md-1 a{
-   font-family: "Brown";
-   font-size: 16px;
-   margin-bottom: -20px; 
-   color: #ffffff;
-   font-weight: bold;
+body .main-background{
 }
 
-body .container .section-margin{
-  margin-top: 8%;
+body .main-background .wrapper .loginBox{
+  background-color: #ffffff;
+  border-radius: 5px; 
+  margin-top: 6%;
 }
 
-body .container .section-main-quotes .one-liner{
-  font-size: 45px;
-}
-body .container .section-main-quotes .quote{
-  font-size: 25px;
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand{
+  color: #ffffff !important;
 }
 
-body .container .section-main-input-details{
-  margin: 8% auto;
-  width: 90%;
-  background-color: #000000;
-  background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-  background: rgba(0, 0, 0, .5);
-  padding: 2% 3%;
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #ffffff!important;
 }
-body .container .section-main-input-details .input-section-row-1{
-  padding: 1px;
-}
-body .container .section-main-input-details .input-section-row-1 input,
-body .container .section-main-input-details .input-section-row-1 select{
-  padding: 2% 4%;
-  color: #716e6e;
-  width: 100%;
-  font-size: 15px;
-  border: 0;
+.navbar-default .navbar-toggle{
+  border-color: #ffffff!important;
 }
 
-body .container .section-main-input-details .input-section-row-1 select.person-select{
-  width: 100%;
-  padding: 4% 7%;
-}
-
-body .container .section-main-input-details .input-section-row-1 .btn-plan{
-  background: #2196f3;
-  padding: 4% 7%;
+.navbar.navbar-default,
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background-color: #20a533;
   color: #ffffff;
-  border: 0;
-  width: 100%;
-}
-
-body .container .section-main-input-details .input-section-row-1 input.calendar-box{
-   background-image:url(../images/calendar.png);
-   background-repeat: no-repeat;
-   background-position: right 5% center;
 }

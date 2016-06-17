@@ -7,6 +7,7 @@ var assets = {
 
 
   MAIN_PAGE : 1,
+  PLANS_PAGE: 2,
 
   getPlatform : function(){
     return device.platform;
@@ -27,6 +28,9 @@ var assets = {
 
     if(viewid == this.MAIN_PAGE){
       return 'views/'+viewtype+'/main.html';
+    }
+    else if(viewid == this.PLANS_PAGE){
+      return 'views/'+viewtype+'/plans.html';
     }
 
   },
