@@ -7,37 +7,90 @@ html, body{
 body {
 
   .main-background{
+  margin-bottom: 5%;
     .container{
       .row{
+
 
         .card{
           background-color: $white;
           padding: 2%;
           border-radius: 5px;
 
+          .title-wrapper{
+
+            .curr-jobs-title{
+              font-size: 24px;
+              color: $dark-font;
+            }
+          }
+
           .section-wrapper{
             overflow: hidden;
             margin-top: 1%;
 
-          .glyphicon{
-              font-size: 15px;
-              color: $dark-font;
-              border-radius: 15px;
-              border: 2px solid $dark-font;
-              padding: 1%;
-              float: left;
-          }
-          .title{
-            font-size: 24px;
-            color: $dark-font;
-            margin-top: -1px;
-            margin-left: 13px;
-            float: left;
-          }
+            &.recent-jobs-wrapper{
+              margin-top: 5%;
+
+              .media{
+
+                border-top: 1px solid $dark-grey;
+                padding-bottom: 3%;
+                padding-top: 3%;
+                .media-body{
+                  .tags{
+                      
+
+                      margin-top: 2%;
+
+                    .tag{
+                      background-color: $theme-color;
+                      color: $white;
+                      font-size: 12px;
+                      padding: 1% 2%;
+
+
+
+                      &.margin{
+                        margin-left: 1%;
+                      }
+                    }
+
+                    .help-button{
+                      padding: 2% 8%;
+                      background-color: $help-button;
+                      color: $white;
+                    }
+
+                    .help-button:hover{
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+            }
+
+
+              .glyphicon{
+                  font-size: 15px;
+                  color: $dark-font;
+                  border-radius: 15px;
+                  border: 2px solid $dark-font;
+                  padding: 1%;
+                  float: left;
+              }
+              .title{
+                font-size: 24px;
+                color: $dark-font;
+                margin-top: -1px;
+                margin-left: 13px;
+                float: left;
+              }
 
 
           .row{
             margin-top: 5%;
+            
 
             &.bottom-buttons-section{
               margin-top: 0;
@@ -132,7 +185,7 @@ body {
       .more-button{
         .button{
           width: 20%;
-          margin: 2% auto;
+          margin: 1% auto;
           padding: 1% 3%;
           color: $white;
           background-color: $learn-more-button;
@@ -228,4 +281,9 @@ body {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   background-color: $theme-color;
   color: $white;
+}
+
+ul.nav.navbar-nav.navbar-right{
+  margin-top: 2%;
+  font-size: 14px;
 }

@@ -17,8 +17,14 @@ helloApp.controller("mainController", [ '$scope','$location', function($scope,$l
 }]);
 
 
+setTimeout(function(){
 
-
+$('.morebutton').click(function(){
+  var body = $("html, body");
+  body.stop().animate({scrollTop:700}, '500', 'swing', function() { 
+  });
+});
+},1000);
 
 /***********************************************************/
 /***********************************************************/
@@ -58,6 +64,5 @@ helloApp.directive('heroboard', function(){
         templateUrl: 'http://localhost:8001/views/browser/templates/heroboard.html'
       }
 });
-
 
 })();
