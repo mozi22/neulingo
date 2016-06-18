@@ -9,6 +9,9 @@ body {
   .main-background{
   margin-bottom: 5%;
     .container{
+      &.recent-jobs{
+        margin-top: 1%;
+      }
       .row{
 
 
@@ -165,7 +168,8 @@ body {
           margin-left: 13px;
           }
           .list-group{
-            border: 0px;
+            .media{
+                border-bottom: 1px solid $dark-grey;
                 .media-body{
                   padding-bottom: 2%;
                     .tag{
@@ -178,6 +182,7 @@ body {
                       }
                     }
                 }
+            }
 
               
           }

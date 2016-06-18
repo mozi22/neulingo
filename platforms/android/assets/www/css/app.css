@@ -62,6 +62,8 @@ html, body {
 
 body .main-background {
   margin-bottom: 5%; }
+  body .main-background .container.recent-jobs {
+    margin-top: 1%; }
   body .main-background .container .row .card {
     background-color: #ffffff;
     padding: 2%;
@@ -150,17 +152,17 @@ body .main-background {
       color: #263A37;
       margin-top: -1px;
       margin-left: 13px; }
-    body .main-background .container .row .heroboard .list-group {
-      border: 0px; }
-    body .main-background .container .row .heroboard .list-group .media-body {
-      padding-bottom: 2%; }
-      body .main-background .container .row .heroboard .list-group .media-body .tag {
-        background-color: #20a533;
-        color: #ffffff;
-        font-size: 12px;
-        padding: 1% 2%; }
-        body .main-background .container .row .heroboard .list-group .media-body .tag.margin {
-          margin-left: 1%; }
+    body .main-background .container .row .heroboard .list-group .media {
+      border-bottom: 1px solid #ccc; }
+      body .main-background .container .row .heroboard .list-group .media .media-body {
+        padding-bottom: 2%; }
+        body .main-background .container .row .heroboard .list-group .media .media-body .tag {
+          background-color: #355236;
+          color: #ffffff;
+          font-size: 12px;
+          padding: 1% 2%; }
+          body .main-background .container .row .heroboard .list-group .media .media-body .tag.margin {
+            margin-left: 1%; }
   body .main-background .container .row .more-button .button {
     width: 20%;
     margin: 1% auto;
