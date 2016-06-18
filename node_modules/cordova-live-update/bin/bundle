@@ -1,0 +1,12 @@
+#!/bin/bash
+source .env
+
+TS=${1-`date +%s`}
+echo "Building $TS"
+
+: ${BUNDLE_ROOT:=`pwd`}
+: ${BUNDLE_TARGET:=$BUNDLE_ROOT/liveupdate}
+: ${BUNDLE_SRC:=$BUNDLE_ROOT/platforms/ios/www}
+mkdir -p $BUNDLE_TARGET
+echo $TS > $BUNDLE_TARGET/liveupdate.json
+pushd $BUNDLE_SRC && zip -9r $BUNDLE_TARGET/$TS.zip * && popd

@@ -1,8 +1,17 @@
+
+@font-face {
+    font-family: "Brown";
+    src: url(../fonts/brown.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Forte";
+    src: url(../fonts/forte.TTf) format("truetype");
+}
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#32383d;
     font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:12px;
 }

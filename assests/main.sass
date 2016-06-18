@@ -1,0 +1,53 @@
+$main-background-color: #ecf0f1 
+$login-button-background-color: #20a533
+$white-color: #ffffff
+
+html
+  height: 100%
+  background-color: $main-background-color
+
+body
+  height: 100%
+  background-color: $main-background-color !important
+  .main-background .wrapper .login-wrapper
+    background-color: $white-color
+    border-radius: 7px
+    margin-top: 6%
+    padding: 3%
+    .elastic
+      border-bottom: 0px solid black
+      border-top: none
+      border-left: none
+      border-right: none
+      width: 80%
+      margin-left: 8%
+      margin-top: 10%
+      font-size: 15px
+    .loginButton
+      background-color: $login-button-background-color
+      color: $white-color
+      font-size: 16px
+      margin-top: 10%
+      margin-left: 19%
+      border: none
+      padding-left: 20%
+      padding-right: 20%
+      padding-top: 3%
+      padding-bottom: 3%
+
+.navbar-default
+  .navbar-nav > li > a, .navbar-brand
+    color: $white-color !important
+  .navbar-toggle
+    .icon-bar
+      background-color: #ffffff !important
+    border-color: #ffffff !important
+
+.navbar.navbar-default
+  background-color: $login-button-background-color
+  color: $white-color
+
+.navbar-default
+  .navbar-collapse, .navbar-form
+    background-color: $login-button-background-color
+    color: $white-color

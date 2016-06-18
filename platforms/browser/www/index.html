@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+
     <!--
         Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
         For details, see http://go.microsoft.com/fwlink/?LinkID=617521
     -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
         
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>HelloTaco</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/plans.css">
+        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-datepicker3.min.css">
     </head>
     <body>
-        <div class="app">
-            <p id="deviceready" class="event">Connecting to Device</p>
-        </div>
-        
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+
+        <div ng-view></div>
+
+            <script type="text/javascript" src="libs/jquery.js"></script>
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="libs/index.js"></script>
+            <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+            <script type="text/javascript" src="libs/platformOverrides.js"></script>
+            <script type="text/javascript" src="libs/angular.min.js"></script>
+            <script type="text/javascript" src="libs/angular-route.min.js"></script>
+            <script type="text/javascript" src="scripts/assets.js"></script>
+            <script type="text/javascript" src="scripts/main.js"></script>
     </body>
 </html>

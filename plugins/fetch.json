@@ -6,5 +6,30 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.plugin.datepicker": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mrfoh/cordova-datepicker-plugin",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-browsersync": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-browsersync"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
