@@ -26,20 +26,20 @@ helloApp.controller("mainController", [ '$scope','$location', function($scope,$l
 /***********************************************************/
 /***********************************************************/
 
-
+var port = 8000;
 
 helloApp.directive('navBar', function(){
       return {
         restrict: 'E',
         scope: false,
-        templateUrl: 'http://localhost:8001/views/browser/templates/nav_bar.html'
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/nav_bar.html'
       }
 });
 helloApp.directive('mainPageIntro', function(){
       return {
         restrict: 'E',
         scope: false,
-        templateUrl: 'http://localhost:8001/views/browser/templates/main_page_intro.html'
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/main_page_intro.html'
       }
 });
 
@@ -47,7 +47,7 @@ helloApp.directive('loginPopup', function(){
       return {
         restrict: 'E',
         scope: false,
-        templateUrl: 'http://localhost:8001/views/browser/templates/login_popup.html'
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/login_popup.html'
       }
 });
 
@@ -55,7 +55,7 @@ helloApp.directive('heroboard', function(){
       return {
         restrict: 'E',
         scope: false,
-        templateUrl: 'http://localhost:8001/views/browser/templates/heroboard.html'
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/heroboard.html'
       }
 });
 

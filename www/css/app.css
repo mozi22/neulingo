@@ -126,16 +126,15 @@ body .main-background .container .row .heroboard {
     margin-left: 13px; }
   body .main-background .container .row .heroboard .list-group {
     border: 0px; }
-    body .main-background .container .row .heroboard .list-group .border-none {
-      border: 0px;
-      border-bottom: 2px solid black; }
-      body .main-background .container .row .heroboard .list-group .border-none .glyphicon {
-        font-size: 15px;
-        color: #263A37;
-        border-radius: 15px;
-        border: 2px solid #263A37;
-        padding: 1%;
-        float: left; }
+    body .main-background .container .row .heroboard .list-group .media-body {
+      padding-bottom: 2%; }
+      body .main-background .container .row .heroboard .list-group .media-body .tag {
+        background-color: #20a533;
+        color: #ffffff;
+        font-size: 12px;
+        padding: 1% 2%; }
+        body .main-background .container .row .heroboard .list-group .media-body .tag.margin {
+          margin-left: 1%; }
 body .main-background .container .row .more-button .button {
   width: 20%;
   margin: 2% auto;
