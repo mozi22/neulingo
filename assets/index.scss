@@ -14,20 +14,22 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:12px;
+
+    .app {
+        background: url(../images/cordova.png) no-repeat center top; 
+        background-size: contain;
+        position: absolute;             
+        left: 50%;
+        top: 50%;
+        height: 30px;                  
+        width: 250px;                   
+        text-align: center;
+        padding: 200px 0px 0px 0px;     
+        margin: -125px;
+    }
 }
 
-.app {
-    background: url(../images/cordova.png) no-repeat center top; 
-    background-size: contain;
-    position: absolute;             
-    left: 50%;
-    top: 50%;
-    height: 30px;                  
-    width: 250px;                   
-    text-align: center;
-    padding: 200px 0px 0px 0px;     
-    margin: -125px;
-}
+
 
 .event {
     border-radius: 4px;

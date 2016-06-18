@@ -34,7 +34,7 @@ helloApp.directive('navBar', function(){
         scope: false,
         templateUrl: 'http://localhost:8000/views/browser/templates/nav_bar.html'
       }
-    });
+});
 
 
 })();

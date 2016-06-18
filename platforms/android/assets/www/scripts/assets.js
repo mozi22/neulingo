@@ -18,12 +18,7 @@ var assets = {
 
     var viewtype = '';
 
-    if(this.getPlatform() == this.ANDROID){
-      viewtype = 'android';
-    }
-    else if( this.getPlatform() == this.BROWSER){
       viewtype = 'browser';
-    }
 
 
     if(viewid == this.MAIN_PAGE){
