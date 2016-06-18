@@ -4,33 +4,27 @@
     <div ng-controller="dashboardController" class="wrapper">
 
         <nav-bar-logged-in></nav-bar-logged-in>
+        <user-type-selection-card></user-type-selection-card>
+        <recent-jobs></recent-jobs>
 
-          <div class="container">
+
+        <div class="container post-status">
             <div class="row">
-                <div class="col-lg-offset-1 col-lg-6 main-card card">
-                    <div class="section-wrapper">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        <div class="title">What are you looking for ? </div>
-                        <div style="clear:both"></div>
-                        <div class="row bottom-line">
-                            <div class="col-lg-6 info-tile">
-                                <div class="wrapper theme-1">
-                                    <div class="text-center"><img src="../images/step1.png" width="50" height="60" /></div>
-                                    <h4 class="text-center">Need Help</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 info-tile ">
-                                <div class="wrapper theme-1">
-                                    <div class="text-center"><img src="../images/step3.png" width="50" height="60"  /></div>
-                                    <h4 class="text-center">Provide Help</h4>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-offset-1 col-lg-6 card">
+                    <div class="row title-wrapper">
+                        <div class="col-lg-12 curr-jobs-title">Describe your Job</div>
                     </div>
+                    <div class="section-wrapper">
+                      <textarea class="status-box" placeholder="Post a job..." ></textarea>
+                       <div id="dZUpload" class="dropzone">
+                            <div class="dz-default dz-message">Upload Images</div>
+                      </div>
+                      
+                   </div>
                 </div>
-              </div>
             </div>
+        </div>
 
-            <recent-jobs></recent-jobs>
+
     </div>
 </div>

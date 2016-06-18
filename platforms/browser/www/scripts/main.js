@@ -25,7 +25,9 @@ helloApp.controller("mainController", [ '$scope','$location', function($scope,$l
   $scope.name = "Calvin Hobbes";
 }]);
 helloApp.controller("dashboardController", [ '$scope','$location', function($scope,$location) {
-  $scope.name = "Calvin Hobbes";
+  $scope.go = function(){
+    alert("mozi");
+  }
 }]);
 
 
@@ -90,5 +92,29 @@ helloApp.directive('recentJobs', function(){
         templateUrl: 'http://localhost:' +  port + '/views/browser/templates/recent_jobs.html'
       }
 });
+helloApp.directive('userTypeSelectionCard', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/user_type_selection_card.html'
+      }
+});
+
+
+setTimeout(function(){
+    Dropzone.autoDiscover = false;
+    $("#dZUpload").dropzone({
+        url: "hn_SimpeFileUploader.ashx",
+        addRemoveLinks: true,
+        success: function (file, response) {
+            var imgName = response;
+            file.previewElement.classList.add("dz-success");
+            console.log("Successfully uploaded :" + imgName);
+        },
+        error: function (file, response) {
+            file.previewElement.classList.add("dz-error");
+        }
+    });     
+},1000);
 
 })();

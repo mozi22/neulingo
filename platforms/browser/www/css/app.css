@@ -82,6 +82,8 @@ body .main-background {
           padding-top: 3%; }
           body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags {
             margin-top: 2%; }
+            body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags a:hover {
+              text-decoration: none; }
             body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags .tag {
               background-color: #355236;
               color: #ffffff;
@@ -89,6 +91,8 @@ body .main-background {
               padding: 1% 2%; }
               body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags .tag.margin {
                 margin-left: 1%; }
+            body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags .tag:hover {
+              cursor: pointer; }
             body .main-background .container .row .card .section-wrapper.recent-jobs-wrapper .media .media-body .tags .help-button {
               padding: 2% 8%;
               background-color: #52B3D9;
@@ -224,6 +228,21 @@ ul.nav.navbar-nav.navbar-right {
   margin-top: 2%;
   font-size: 14px; }
 
+body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .status-box {
+  width: 98%;
+  height: 94px;
+  word-wrap: break-word;
+  resize: horizontal;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3%;
+  font-size: 16px; }
+body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .dropzone {
+  border: 1px dashed #355236; }
+  body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .dropzone .dz-message {
+    font-size: 19px;
+    color: #355236; }
 body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .bottom-line .info-tile .wrapper:hover {
   cursor: pointer;
   background-color: #466d5d; }

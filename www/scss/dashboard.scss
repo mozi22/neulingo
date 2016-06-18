@@ -7,10 +7,30 @@ body {
           .row{
             .card{
               .section-wrapper{
+
+                .status-box{
+                  width: 98%;
+                  height: 94px;
+                  word-wrap: break-word;
+                  resize: horizontal;
+                  overflow: hidden;
+                  border: 1px solid #ddd;
+                  border-radius: 4px;
+                  padding: 3%;
+                  font-size: 16px;
+                }
+
+                .dropzone{
+                  border: 1px dashed $theme-color;
+                  .dz-message{
+                    font-size: 19px;
+                    color: $theme-color;
+                  }
+                }
+
                 .bottom-line{
                   .info-tile{
                     .wrapper{
-
                     }
                     .wrapper:hover{
                       cursor: pointer;
