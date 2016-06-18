@@ -15,6 +15,9 @@ var helloApp = angular.module("HelloApp", ['ngRoute'])
 helloApp.controller("mainController", [ '$scope','$location', function($scope,$location) {
   $scope.name = "Calvin Hobbes";
 }]);
+helloApp.controller("dashboardController", [ '$scope','$location', function($scope,$location) {
+  $scope.name = "Calvin Hobbes";
+}]);
 
 
 setTimeout(function(){
