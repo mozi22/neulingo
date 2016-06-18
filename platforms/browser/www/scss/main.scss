@@ -166,19 +166,21 @@ body {
           }
           .list-group{
             border: 0px;
-                .border-none{
-                  border: 0px;
-                  border-bottom: 2px solid black;
-                      .glyphicon{
-                          font-size: 15px;
-                          color: $dark-font;
-                          border-radius: 15px;
-                          border: 2px solid $dark-font;
-                          padding: 1%;
-                          float: left;
+                .media-body{
+                  padding-bottom: 2%;
+                    .tag{
+                      background-color: $theme-color;
+                      color: $white;
+                      font-size: 12px;
+                      padding: 1% 2%;
+                      &.margin{
+                        margin-left: 1%;
                       }
+                    }
                 }
-              }
+
+              
+          }
             
         }
     
