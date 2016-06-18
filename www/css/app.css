@@ -224,4 +224,8 @@ ul.nav.navbar-nav.navbar-right {
   margin-top: 2%;
   font-size: 14px; }
 
+body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .bottom-line .info-tile .wrapper:hover {
+  cursor: pointer;
+  background-color: #466d5d; }
+
 /*# sourceMappingURL=app.css.map */

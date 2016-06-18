@@ -76,5 +76,19 @@ helloApp.directive('heroboard', function(){
         templateUrl: 'http://localhost:' +  port + '/views/browser/templates/heroboard.html'
       }
 });
+helloApp.directive('navBarLoggedIn', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/nav_bar_logged_in.html'
+      }
+});
+helloApp.directive('recentJobs', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/recent_jobs.html'
+      }
+});
 
 })();

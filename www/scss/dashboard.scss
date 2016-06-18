@@ -1,6 +1,29 @@
 body {
 
-  .dashboard-background{
+  .main-background{
+    &.dashboard-background{
+      .wrapper{
+        .container{
+          .row{
+            .card{
+              .section-wrapper{
+                .bottom-line{
+                  .info-tile{
+                    .wrapper{
 
+                    }
+                    .wrapper:hover{
+                      cursor: pointer;
+                      background-color: $info-tile-hover;
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
   }
 }
