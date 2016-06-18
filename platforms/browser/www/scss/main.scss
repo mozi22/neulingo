@@ -18,6 +18,7 @@ body {
           .section-wrapper{
             overflow: hidden;
             margin-top: 2%;
+
           .glyphicon{
               font-size: 15px;
               color: $dark-font;
@@ -37,14 +38,34 @@ body {
 
 
           .row{
-
             margin-top: 5%;
-            padding-bottom: 6%;
+
+            &.bottom-buttons-section{
+              margin-top: 0;
+            }
+
+            .button{
+              background-color: $theme-color;
+              font-size: 14px;
+              color: $white !important;
+              width: 31%;
+              padding: 2% 9%;
+            }
+
+            .link{
+              font-size: 20px;
+              color: $font-link;
+            }
+
+            .link:hover{
+              text-decoration: underline;
+              cursor: pointer;
+            }
+
 
 
             &.bottom-line{
-
-              border-bottom: 2px solid $dark-grey;
+              padding-bottom: 5%;
             }
 
 
@@ -75,8 +96,8 @@ body {
             }
           }
         }
-      }        }
-
+      }
+    }
     }
   }
 

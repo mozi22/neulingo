@@ -81,10 +81,23 @@ body .main-background .container .row .card {
       margin-left: 13px;
       float: left; }
     body .main-background .container .row .card .section-wrapper .row {
-      margin-top: 5%;
-      padding-bottom: 6%; }
+      margin-top: 5%; }
+      body .main-background .container .row .card .section-wrapper .row.bottom-buttons-section {
+        margin-top: 0; }
+      body .main-background .container .row .card .section-wrapper .row .button {
+        background-color: #20a533;
+        font-size: 14px;
+        color: #ffffff !important;
+        width: 31%;
+        padding: 2% 9%; }
+      body .main-background .container .row .card .section-wrapper .row .link {
+        font-size: 20px;
+        color: #3E4943; }
+      body .main-background .container .row .card .section-wrapper .row .link:hover {
+        text-decoration: underline;
+        cursor: pointer; }
       body .main-background .container .row .card .section-wrapper .row.bottom-line {
-        border-bottom: 2px solid #ccc; }
+        padding-bottom: 5%; }
       body .main-background .container .row .card .section-wrapper .row .info-tile {
         padding: 0; }
         body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper {
