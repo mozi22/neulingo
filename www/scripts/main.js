@@ -43,5 +43,13 @@ helloApp.directive('mainPageIntro', function(){
       }
 });
 
+helloApp.directive('loginPopup', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:8000/views/browser/templates/login_popup.html'
+      }
+});
+
 
 })();
