@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "org.apache.cordova.plugin.datepicker": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-browsersync": {
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        }
+    },
+    "dependent_plugins": {}
+}
