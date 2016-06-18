@@ -64,19 +64,41 @@ body .main-background .container .row .card {
   background-color: #ffffff;
   padding: 4%;
   border-radius: 5px; }
-  body .main-background .container .row .card .glyphicon {
-    font-size: 15px;
-    color: #263A37;
-    border-radius: 15px;
-    border: 2px solid #263A37;
-    padding: 1%;
-    float: left; }
-  body .main-background .container .row .card .title {
-    font-size: 24px;
-    color: #263A37;
-    margin-top: -1px;
-    margin-left: 13px;
-    float: left; }
+  body .main-background .container .row .card .section-wrapper {
+    overflow: hidden;
+    margin-top: 2%; }
+    body .main-background .container .row .card .section-wrapper .glyphicon {
+      font-size: 15px;
+      color: #263A37;
+      border-radius: 15px;
+      border: 2px solid #263A37;
+      padding: 1%;
+      float: left; }
+    body .main-background .container .row .card .section-wrapper .title {
+      font-size: 24px;
+      color: #263A37;
+      margin-top: -1px;
+      margin-left: 13px;
+      float: left; }
+    body .main-background .container .row .card .section-wrapper .row {
+      margin-top: 5%;
+      padding-bottom: 6%; }
+      body .main-background .container .row .card .section-wrapper .row.bottom-line {
+        border-bottom: 2px solid #ccc; }
+      body .main-background .container .row .card .section-wrapper .row .info-tile {
+        padding: 0; }
+        body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper {
+          width: 99%;
+          height: 99%;
+          padding: 20% 0%; }
+          body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper.theme-1 {
+            background-color: #4D9E7D; }
+          body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper.theme-2 {
+            background-color: #82BF84; }
+          body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper.theme-3 {
+            background-color: #58BC8E; }
+          body .main-background .container .row .card .section-wrapper .row .info-tile .wrapper h4 {
+            color: #ffffff; }
 body .wrapper .login-wrapper {
   background-color: #ffffff;
   border-radius: 7px;

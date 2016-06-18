@@ -15,6 +15,9 @@ body {
           padding: 4%;
           border-radius: 5px;
 
+          .section-wrapper{
+            overflow: hidden;
+            margin-top: 2%;
           .glyphicon{
               font-size: 15px;
               color: $dark-font;
@@ -31,8 +34,49 @@ body {
             margin-left: 13px;
             float: left;
           }
+
+
+          .row{
+
+            margin-top: 5%;
+            padding-bottom: 6%;
+
+
+            &.bottom-line{
+
+              border-bottom: 2px solid $dark-grey;
+            }
+
+
+            .info-tile{
+              padding: 0;
+
+              .wrapper{
+                
+                width: 99%;
+                height: 99%;
+                padding: 20% 0%;
+
+                &.theme-1{
+                  background-color: $theme-1;
+                }
+                &.theme-2{
+                  background-color: $theme-2;
+                }
+                &.theme-3{
+                  background-color: $theme-3;
+                }
+
+                h4{
+                  color: $white;
+                }
+              }
+
+            }
+          }
         }
-      }
+      }        }
+
     }
   }
 
