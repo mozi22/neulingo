@@ -12,12 +12,12 @@ body {
 
         .card{
           background-color: $white;
-          padding: 4%;
+          padding: 2%;
           border-radius: 5px;
 
           .section-wrapper{
             overflow: hidden;
-            margin-top: 2%;
+            margin-top: 1%;
 
           .glyphicon{
               font-size: 15px;
@@ -50,6 +50,10 @@ body {
               color: $white !important;
               width: 31%;
               padding: 2% 9%;
+            }
+
+            .button:hover{
+              cursor: pointer;
             }
 
             .link{
@@ -144,7 +148,21 @@ body {
 
 
 
+.modal{
+  .modal-dialog{
+    .modal-content{
+      .modal-footer{
+        button{
+          &.loginButton{
+            background-color: $theme-color;
+            border: 1px solid $theme-color;
+          }
+        }
+      }
+    }
+  }
 
+}
 
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-brand{

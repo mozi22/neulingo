@@ -62,11 +62,11 @@ html, body {
 
 body .main-background .container .row .card {
   background-color: #ffffff;
-  padding: 4%;
+  padding: 2%;
   border-radius: 5px; }
   body .main-background .container .row .card .section-wrapper {
     overflow: hidden;
-    margin-top: 2%; }
+    margin-top: 1%; }
     body .main-background .container .row .card .section-wrapper .glyphicon {
       font-size: 15px;
       color: #263A37;
@@ -90,6 +90,8 @@ body .main-background .container .row .card {
         color: #ffffff !important;
         width: 31%;
         padding: 2% 9%; }
+      body .main-background .container .row .card .section-wrapper .row .button:hover {
+        cursor: pointer; }
       body .main-background .container .row .card .section-wrapper .row .link {
         font-size: 20px;
         color: #3E4943; }
@@ -137,6 +139,10 @@ body .wrapper .login-wrapper {
     padding-right: 20%;
     padding-top: 3%;
     padding-bottom: 3%; }
+
+.modal .modal-dialog .modal-content .modal-footer button.loginButton {
+  background-color: #20a533;
+  border: 1px solid #20a533; }
 
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
