@@ -100,6 +100,34 @@ body {
           }
         }
       }
+        .heroboard {
+          padding: 15px;
+          background-color:$theme-color;
+          border-radius: 4px;
+          background-color: $white;
+          .title{
+          font-size: 24px;
+          color: $dark-font;
+          margin-top: -1px;
+          margin-left: 13px;
+          }
+          .list-group{
+            border: 0px;
+                .border-none{
+                  border: 0px;
+                  border-bottom: 2px solid black;
+                      .glyphicon{
+                          font-size: 15px;
+                          color: $dark-font;
+                          border-radius: 15px;
+                          border: 2px solid $dark-font;
+                          padding: 1%;
+                          float: left;
+                      }
+                }
+              }
+            
+        }
     
       .more-button{
         .button{
