@@ -35,6 +35,13 @@ helloApp.directive('navBar', function(){
         templateUrl: 'http://localhost:8000/views/browser/templates/nav_bar.html'
       }
 });
+helloApp.directive('mainPageIntro', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:8000/views/browser/templates/main_page_intro.html'
+      }
+});
 
 
 })();

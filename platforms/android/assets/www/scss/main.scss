@@ -101,7 +101,23 @@ body {
           }
         }
       }
+    
+      .more-button{
+        .button{
+          width: 20%;
+          margin: 2% auto;
+          padding: 1% 3%;
+          color: $white;
+          background-color: $learn-more-button;
+
+        }
+
+        .button:hover{
+          cursor: pointer;
+        }
+      }
     }
+
     }
   }
 
