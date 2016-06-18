@@ -122,4 +122,49 @@ body .wrapper .login-wrapper {
   background-color: #20a533;
   color: #ffffff; }
 
+html, body {
+  height: 100%;
+  background-color: #ecf0f1 !important;
+  font-family: Brown; }
+
+body .main-background .container .row .card {
+  background-color: #ffffff;
+  padding: 4%;
+  border-radius: 5px; }
+  body .main-background .container .row .card .glyphicon {
+    font-size: 15px;
+    color: #263A37;
+    border-radius: 15px;
+    border: 2px solid #263A37;
+    padding: 1%;
+    float: left; }
+  body .main-background .container .row .card .title {
+    font-size: 24px;
+    color: #263A37;
+    margin-top: -1px;
+    margin-left: 13px;
+    float: left; }
+body .main-background .container .row .heroboard {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  background-color: #ffffff; }
+  body .main-background .container .row .heroboard .title {
+    font-size: 24px;
+    color: #263A37;
+    margin-top: -1px;
+    margin-left: 13px; }
+  body .main-background .container .row .heroboard .list-group {
+    border: 0px; }
+    body .main-background .container .row .heroboard .list-group .border-none {
+      border: 0px;
+      border-bottom: 2px solid black; }
+      body .main-background .container .row .heroboard .list-group .border-none .glyphicon {
+        font-size: 15px;
+        color: #263A37;
+        border-radius: 15px;
+        border: 2px solid #263A37;
+        padding: 1%;
+        float: left; }
+
 /*# sourceMappingURL=app.css.map */
