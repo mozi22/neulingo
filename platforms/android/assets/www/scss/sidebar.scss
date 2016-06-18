@@ -1,0 +1,65 @@
+html, body{
+  height: 100%;
+  background-color: $page-background  !important;
+  font-family: Brown;
+}
+
+body {
+  .main-background{
+    .container{
+      .row{
+        .card{
+          background-color: $white;
+          padding: 4%;
+          border-radius: 5px;
+
+          .glyphicon{
+              font-size: 15px;
+              color: $dark-font;
+              border-radius: 15px;
+              border: 2px solid $dark-font;
+              padding: 1%;
+              float: left;
+          }
+
+          .title{
+            font-size: 24px;
+            color: $dark-font;
+            margin-top: -1px;
+            margin-left: 13px;
+            float: left;
+          }
+        }
+        .heroboard {
+          padding: 15px;
+          background-color:$nav-bar-color;
+          border-radius: 4px;
+          background-color: $white;
+          .title{
+          font-size: 24px;
+          color: $dark-font;
+          margin-top: -1px;
+          margin-left: 13px;
+          }
+          .list-group{
+            border: 0px;
+                .border-none{
+                  border: 0px;
+                  border-bottom: 2px solid black;
+                      .glyphicon{
+                          font-size: 15px;
+                          color: $dark-font;
+                          border-radius: 15px;
+                          border: 2px solid $dark-font;
+                          padding: 1%;
+                          float: left;
+                      }
+                }
+              }
+            
+        }
+      }
+    }
+  }
+}
+

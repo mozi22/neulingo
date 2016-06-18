@@ -51,5 +51,13 @@ helloApp.directive('loginPopup', function(){
       }
 });
 
+helloApp.directive('heroboard', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:8000/views/browser/templates/heroboard.html'
+      }
+});
+
 
 })();
