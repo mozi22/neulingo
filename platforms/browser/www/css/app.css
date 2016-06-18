@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Brown";
-  src: url(../fonts/brown.ttf) format("truetype"); }
+  src: url(../css/fonts/brown.ttf) format("truetype"); }
 @font-face {
   font-family: "Forte";
-  src: url(../fonts/forte.TTf) format("truetype"); }
+  src: url(../css/fonts/forte.TTf) format("truetype"); }
 body {
   -webkit-touch-callout: none;
   /* prevent callout to copy image, etc when tap to hold */
@@ -57,8 +57,26 @@ body {
 /* Landscape styles */
 html, body {
   height: 100%;
-  background-color: #ecf0f1 !important; }
+  background-color: #ecf0f1 !important;
+  font-family: Brown; }
 
+body .main-background .container .row .card {
+  background-color: #ffffff;
+  padding: 4%;
+  border-radius: 5px; }
+  body .main-background .container .row .card .glyphicon {
+    font-size: 15px;
+    color: #263A37;
+    border-radius: 15px;
+    border: 2px solid #263A37;
+    padding: 1%;
+    float: left; }
+  body .main-background .container .row .card .title {
+    font-size: 24px;
+    color: #263A37;
+    margin-top: -1px;
+    margin-left: 13px;
+    float: left; }
 body .wrapper .login-wrapper {
   background-color: #ffffff;
   border-radius: 7px;
@@ -88,6 +106,10 @@ body .wrapper .login-wrapper {
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
   color: #ffffff !important; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover {
+  font-style: underline; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff !important; }
