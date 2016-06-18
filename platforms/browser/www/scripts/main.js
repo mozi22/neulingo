@@ -8,6 +8,15 @@ var helloApp = angular.module("HelloApp", ['ngRoute'])
       when('/', {
         templateUrl: assets.getView(1),
         controller: 'mainController'
+      }).when('/dashboard', {
+        templateUrl: assets.getView(2),
+        controller: 'dashboardController'
+      }).when('/settings', {
+        templateUrl: assets.getView(4),
+        controller: 'dashboardController'
+      }).when('/shops', {
+        templateUrl: assets.getView(3),
+        controller: 'dashboardController'
       });  
     
     });
