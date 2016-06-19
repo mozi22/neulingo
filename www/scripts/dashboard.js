@@ -26,7 +26,12 @@ autosize(document.querySelectorAll('textarea'));
 $('.post-message-to-job').click(function(){
   location.reload();
   window.location = "http://localhost:8000/index.html#/jobdetail2";
-})
+});
+
+$('.curr-jobs-link').click(function(){
+  location.reload();
+  window.location = "http://localhost:8000/index.html#/dashboard";
+});
 
 
 $('#tokenfield').tokenfield({
