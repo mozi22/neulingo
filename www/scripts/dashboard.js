@@ -24,7 +24,7 @@ autosize(document.querySelectorAll('textarea'));
 
 
 $('.help-button').click(function(){
-  window.location = "http://localhost:8001/index.html#/jobdetails";
+  //window.location = "http://localhost:8000/index.html#/jobdetails";
 })
 
 
