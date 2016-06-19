@@ -1,4 +1,5 @@
 <div class="main-background dashboard-background">
+<<<<<<< HEAD
 
 
     <div ng-controller="dashboardController" class="wrapper">
@@ -45,8 +46,7 @@
         </div>
 
 
-    </div>
-</div><div class="main-background dashboard-background">
+=======
     <div ng-controller="dashboardController" class="wrapper">
          <nav-bar></nav-bar>
         <div class="container">
@@ -121,5 +121,6 @@
             </div>
         </div>
 
+>>>>>>> 7121373515eb415e207db58206602d948a5ba29f
     </div>
 </div>

@@ -1,0 +1,90 @@
+body {
+  padding-top:30px;
+  .main-background{
+    &.dashboard-background{
+    background-color: $page-background  !important;
+      .wrapper{
+        .container{
+          .row{
+            .profile{
+              background-color: #ffffff;
+              .sidebar-module{
+                .profile-details{  
+                  .name{
+                   font-size: 24px;
+                   color: $dark-font;
+                  }
+                   .tags{
+                     .margin{
+                           margin-top: 1%;
+                            margin-bottom: 3%;
+                            padding: 3px 6px;
+                      }
+                   }
+                }
+              }
+            }
+
+<<<<<<< HEAD
+  .main-background{
+    &.dashboard-background{
+      .wrapper{
+        .container{
+          .row{
+            .card{
+              .section-wrapper{
+
+                .button-wrapper{
+                  .button{
+                    width: 30%;
+                    text-align: center;
+                    margin: 4% auto;
+                  }
+                }
+                .post-title{
+                  font-size: 20px;
+                  color: $dark-font;
+                  margin-top: 2%; 
+                }
+                .status-box{
+                  width: 100%;
+                  height: 94px;
+                  word-wrap: break-word;
+                  resize: horizontal;
+                  overflow: hidden;
+                  border: 1px solid #ddd;
+                  border-radius: 4px;
+                  padding: 3%;
+                  font-size: 16px;
+                }
+
+                .dropzone{
+                  border: 1px dashed $theme-color;
+                  .dz-message{
+                    font-size: 19px;
+                    color: $theme-color;
+                  }
+                }
+
+                .bottom-line{
+                  .info-tile{
+                    .wrapper{
+                    }
+                    .wrapper:hover{
+                      cursor: pointer;
+                      background-color: $info-tile-hover;
+                    }
+                  }
+                }
+              }
+            }
+
+=======
+
+>>>>>>> 7121373515eb415e207db58206602d948a5ba29f
+          }
+        }
+      }
+    }
+  }
+}
