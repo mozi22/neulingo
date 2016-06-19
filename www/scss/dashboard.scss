@@ -5,6 +5,25 @@ body {
       .wrapper{
         .container{
           .row{
+            .profile{
+              background-color: #ffffff;
+              .sidebar-module{
+                .profile-details{  
+                  .name{
+                   font-size: 24px;
+                   color: $dark-font;
+                  }
+                   .tags{
+                     .margin{
+                           margin-top: 1%;
+                            margin-bottom: 3%;
+                            padding: 3px 6px;
+                      }
+                   }
+                }
+              }
+            }
+
             .card{
               .section-wrapper{
 

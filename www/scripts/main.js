@@ -48,7 +48,7 @@ $('.morebutton').click(function(){
 /***********************************************************/
 /***********************************************************/
 
-var port = 8000;
+var port = 8001;
 
 helloApp.directive('navBar', function(){
       return {

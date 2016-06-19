@@ -228,6 +228,15 @@ ul.nav.navbar-nav.navbar-right {
   margin-top: 2%;
   font-size: 14px; }
 
+body .main-background.dashboard-background .wrapper .container .row .profile {
+  background-color: #ffffff; }
+  body .main-background.dashboard-background .wrapper .container .row .profile .sidebar-module .profile-details .name {
+    font-size: 24px;
+    color: #263A37; }
+  body .main-background.dashboard-background .wrapper .container .row .profile .sidebar-module .profile-details .tags .margin {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 3px 6px; }
 body .main-background.dashboard-background .wrapper .container .row .card .section-wrapper .button-wrapper .button {
   width: 30%;
   text-align: center;
