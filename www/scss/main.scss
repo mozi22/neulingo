@@ -159,31 +159,35 @@ body {
           background-color:$theme-color;
           border-radius: 4px;
           background-color: $white;
+        
           .title{
           font-size: 24px;
           color: $dark-font;
           margin-top: -1px;
           margin-left: 13px;
           }
-          .list-group{
-            .media{
-                border-bottom: 1px solid $dark-grey;
-                .media-body{
-                  padding-bottom: 2%;
-                    .tag{
-                      background-color: $theme-color;
-                      color: $white;
-                      font-size: 12px;
-                      padding: 1% 2%;
-                      &.margin{
-                        margin-left: 1%;
+            .sidebar-module{
+                .list-group{
+                  .media{
+                      border-bottom: 1px solid $dark-grey;
+                      .media-body{
+                        padding-bottom: 2%;
+                          .tag{
+                            background-color: $theme-color;
+                            color: $white;
+                            font-size: 12px;
+                            padding: 1% 2%;
+                            &.margin{
+                              margin-left: 1%;
+                            }
+                          }
                       }
-                    }
-                }
-            }
+                  }
 
               
           }
+            }
+          
             
         }
     

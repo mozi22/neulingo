@@ -16,7 +16,7 @@ var helloApp = angular.module("HelloApp", ['ngRoute'])
         controller: 'dashboardController'
       }).when('/shops', {
         templateUrl: assets.getView(3),
-        controller: 'dashboardController'
+        controller: 'shopController'
       });  
     
     });
@@ -27,7 +27,9 @@ helloApp.controller("mainController", [ '$scope','$location', function($scope,$l
 helloApp.controller("dashboardController", [ '$scope','$location', function($scope,$location) {
   $scope.name = "Calvin Hobbes";
 }]);
-
+helloApp.controller("shopController", [ '$scope','$location', function($scope,$location) {
+  $scope.name = "Calvin Hobbes";
+}]);
 
 setTimeout(function(){
 
@@ -44,7 +46,7 @@ $('.morebutton').click(function(){
 /***********************************************************/
 /***********************************************************/
 
-var port = 8001;
+var port = 8000;
 
 helloApp.directive('navBar', function(){
       return {
@@ -74,6 +76,22 @@ helloApp.directive('heroboard', function(){
         restrict: 'E',
         scope: false,
         templateUrl: 'http://localhost:' +  port + '/views/browser/templates/heroboard.html'
+      }
+});
+
+helloApp.directive('profile', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/profile.html'
+      }
+});
+
+helloApp.directive('score', function(){
+      return {
+        restrict: 'E',
+        scope: false,
+        templateUrl: 'http://localhost:' +  port + '/views/browser/templates/score.html'
       }
 });
 

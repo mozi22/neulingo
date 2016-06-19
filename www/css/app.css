@@ -152,16 +152,16 @@ body .main-background {
       color: #263A37;
       margin-top: -1px;
       margin-left: 13px; }
-    body .main-background .container .row .heroboard .list-group .media {
+    body .main-background .container .row .heroboard .sidebar-module .list-group .media {
       border-bottom: 1px solid #ccc; }
-      body .main-background .container .row .heroboard .list-group .media .media-body {
+      body .main-background .container .row .heroboard .sidebar-module .list-group .media .media-body {
         padding-bottom: 2%; }
-        body .main-background .container .row .heroboard .list-group .media .media-body .tag {
+        body .main-background .container .row .heroboard .sidebar-module .list-group .media .media-body .tag {
           background-color: #355236;
           color: #ffffff;
           font-size: 12px;
           padding: 1% 2%; }
-          body .main-background .container .row .heroboard .list-group .media .media-body .tag.margin {
+          body .main-background .container .row .heroboard .sidebar-module .list-group .media .media-body .tag.margin {
             margin-left: 1%; }
   body .main-background .container .row .more-button .button {
     width: 20%;
@@ -223,5 +223,19 @@ body .wrapper .login-wrapper {
 ul.nav.navbar-nav.navbar-right {
   margin-top: 2%;
   font-size: 14px; }
+
+body {
+  padding-top: 30px; }
+  body .main-background.dashboard-background {
+    background-color: #ecf0f1 !important; }
+    body .main-background.dashboard-background .wrapper .container .row .profile {
+      background-color: #ffffff; }
+      body .main-background.dashboard-background .wrapper .container .row .profile .sidebar-module .profile-details .name {
+        font-size: 24px;
+        color: #263A37; }
+      body .main-background.dashboard-background .wrapper .container .row .profile .sidebar-module .profile-details .tags .margin {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        padding: 3px 6px; }
 
 /*# sourceMappingURL=app.css.map */
