@@ -17,6 +17,12 @@ var helloApp = angular.module("HelloApp", ['ngRoute'])
       }).when('/shops', {
         templateUrl: assets.getView(3),
         controller: 'shopController'
+      }).when('/jobdetail', {
+        templateUrl: assets.getView(5),
+        controller: 'shopController'
+      }).when('/jobdetail2', {
+        templateUrl: assets.getView(6),
+        controller: 'shopController'
       });  
     
     });
@@ -30,6 +36,12 @@ helloApp.controller("dashboardController", [ '$scope','$location', function($sco
   }
 }]);
 helloApp.controller("shopController", [ '$scope','$location', function($scope,$location) {
+  $scope.name = "Calvin Hobbes";
+}]);
+helloApp.controller("jobController", [ '$scope','$location', function($scope,$location) {
+  $scope.name = "Calvin Hobbes";
+}]);
+helloApp.controller("job2Controller", [ '$scope','$location', function($scope,$location) {
   $scope.name = "Calvin Hobbes";
 }]);
 

@@ -35,6 +35,11 @@ var assets = {
     else if(viewid == this.SETTINGS_PAGE){
       return 'views/'+viewtype+'/settings.html';
     }
-
+    else if(viewid == 5){
+      return 'views/'+viewtype+'/jobdetail.html';
+    }
+    else if(viewid == 6){
+      return 'views/'+viewtype+'/jobdetail2.html';
+    }
   },
 };
