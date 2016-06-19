@@ -23,8 +23,9 @@ $('.info-tile:eq(1)').click(function(){
 autosize(document.querySelectorAll('textarea'));
 
 
-$('.help-button').click(function(){
-  //window.location = "http://localhost:8000/index.html#/jobdetails";
+$('.post-message-to-job').click(function(){
+  location.reload();
+  window.location = "http://localhost:8000/index.html#/jobdetail2";
 })
 
 
