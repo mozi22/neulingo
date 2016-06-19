@@ -1,0 +1,43 @@
+body {
+
+  .main-background{
+    &.shop-background{
+      .wrapper{
+
+      .shop-wrapper{
+        padding: 8%;
+
+        .row{
+
+          .score-section{
+            background-color: $theme-color;
+            position: fixed;
+            color: $white;
+            right:2%;
+            bottom:2%;
+            border-radius: 20px;
+            padding: 2%;
+            color: #ffbb48;
+          }
+
+          .shop-tile{
+            cursor: pointer;
+
+            .thumbnail{
+              .caption{
+                margin-right: 1%;
+                margin-left: 1%;
+              }
+
+              .ratings{
+                margin-left: 3%;
+                margin-right: 3%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}

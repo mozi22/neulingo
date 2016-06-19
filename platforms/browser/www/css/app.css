@@ -264,4 +264,24 @@ body .main-background.dashboard-background .wrapper .container .row .card .secti
   cursor: pointer;
   background-color: #466d5d; }
 
+body .main-background.shop-background .wrapper .shop-wrapper {
+  padding: 8%; }
+  body .main-background.shop-background .wrapper .shop-wrapper .row .score-section {
+    background-color: #355236;
+    position: fixed;
+    color: #ffffff;
+    right: 2%;
+    bottom: 2%;
+    border-radius: 20px;
+    padding: 2%;
+    color: #ffbb48; }
+  body .main-background.shop-background .wrapper .shop-wrapper .row .shop-tile {
+    cursor: pointer; }
+    body .main-background.shop-background .wrapper .shop-wrapper .row .shop-tile .thumbnail .caption {
+      margin-right: 1%;
+      margin-left: 1%; }
+    body .main-background.shop-background .wrapper .shop-wrapper .row .shop-tile .thumbnail .ratings {
+      margin-left: 3%;
+      margin-right: 3%; }
+
 /*# sourceMappingURL=app.css.map */

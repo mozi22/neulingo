@@ -48,7 +48,7 @@ $('.morebutton').click(function(){
 /***********************************************************/
 /***********************************************************/
 
-var port = 8001;
+var port = 8000;
 
 helloApp.directive('navBar', function(){
       return {
@@ -118,7 +118,10 @@ setTimeout(function(){
         }
     });     
 
-
+    $('.loginButton').click(function(){
+      window.location = "http://localhost:8000/index.html#/dashboard";
+      location.reload();
+    });
 
 },1000);
 
