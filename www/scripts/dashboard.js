@@ -2,7 +2,7 @@
 setTimeout(function(){
 
 $('.recent-jobs').hide();
-// $('.post-status').hide();
+$('.post-status').hide();
 $('.row .bottom-buttons-section').hide();
 
 $('.curr-jobs-title:eq(0)').text('Current Jobs');
@@ -26,5 +26,15 @@ autosize(document.querySelectorAll('textarea'));
 $('.help-button').click(function(){
   window.location = "http://localhost:8001/index.html#/jobdetails";
 })
+
+
+$('#tokenfield').tokenfield({
+  autocomplete: {
+    source: ['Documents','Translation','Language','Hand','Pickup','Groceries','Freiburg','Tour'],
+    delay: 100
+  },
+  showAutocompleteOnFocus: true
+});
+
 
 },300);

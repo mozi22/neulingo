@@ -8,8 +8,20 @@ body {
             .card{
               .section-wrapper{
 
+                .button-wrapper{
+                  .button{
+                    width: 30%;
+                    text-align: center;
+                    margin: 4% auto;
+                  }
+                }
+                .post-title{
+                  font-size: 20px;
+                  color: $dark-font;
+                  margin-top: 2%; 
+                }
                 .status-box{
-                  width: 98%;
+                  width: 100%;
                   height: 94px;
                   word-wrap: break-word;
                   resize: horizontal;

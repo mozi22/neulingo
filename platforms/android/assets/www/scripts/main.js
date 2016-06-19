@@ -115,6 +115,9 @@ setTimeout(function(){
             file.previewElement.classList.add("dz-error");
         }
     });     
+
+
+
 },1000);
 
 })();
