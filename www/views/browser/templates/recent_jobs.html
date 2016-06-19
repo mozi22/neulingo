@@ -35,7 +35,7 @@
                             <div class="tags">
                                 <a href="#/dashboardaa" class="tag pull-left">Freiburg</a>
                                 <a href="#/dashboardaa" class="tag pull-left margin">Newcommer</a>
-                                <div class="help-button pull-right" data-toggle="modal" data-target="#myModal">Offer help</div>
+                                <div class="help-button pull-right">Offer help</div>
                             </div>
                           </div>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="tags">
                                 <a href="#/dashboardaa" class="tag pull-left">Document</a>
                                 <a href="#/dashboardaa" class="tag pull-left margin">Translation</a>
-                                <div class="help-button pull-right" data-toggle="modal" data-target="#myModal">Offer help</div>
+                                <div class="help-button pull-right">Offer help</div>
                             </div>
                           </div>
                         </div>
@@ -69,7 +69,7 @@
                             <div class="tags">
                                 <div class="tag pull-left">Document</div>
                                 <div class="tag pull-left margin">Translation</div>
-                                <div class="help-button pull-right" data-toggle="modal" data-target="#myModal">Offer help</div>
+                                <div class="help-button pull-right" >Offer help</div>
                             </div>
                           </div>
                         </div>
@@ -78,12 +78,30 @@
                     </div>
 
                     <div class="section-wrapper">
-                        <div class="row bottom-buttons-section">
                             <div class="col-lg-4 link ">more jobs...</div>
-                        </div>
                     </div>
                 </div>
 
             </div>
             </div>
         </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Post Description</h4>
+      </div>
+      <div class="modal-body" >
+           <textarea class="status-box" placeholder="Post Description..."  style="width:400px;height:200px;" ></textarea>
+      </div>
+      <div class="modal-footer">
+        <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a href="#/jobdetail"><button type="button" class="btn btn-success">Post</button></a></center>
+      </div>
+    </div>
+  </div>
+</div>
