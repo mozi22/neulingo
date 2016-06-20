@@ -1,4 +1,4 @@
-# neulingo
+![](https://s3.amazonaws.com/prod_object_assets/assets/145607198334505/forcoupon.png?AWSAccessKeyId=AKIAIXM6FRIC5QVSA63Q&Expires=1466427474&Signature=ZmjBjqOgjtTnJGmzUGbgtP6rsXI%3D#_=_) </br>
 An mockup app for helping newcomers in Freiburg, Germany and get rewards.
 Work in progress. Coming fairly soon to a github repository near you.
 
