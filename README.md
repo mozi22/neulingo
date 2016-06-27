@@ -1,4 +1,4 @@
-<img src="www/images/neulingo.png width="600px"/> </br>
+<img src="www/images/neulingo.png" width="600px"/> </br>
 ## Idea
 An mockup app for helping newcomers in Freiburg, Germany and get rewards.
 Work in progress. Coming fairly soon to a github repository.
@@ -16,7 +16,7 @@ Won 1st prize in Freiburg Hackathon 2016 (https://hackathon-freiburg.de/#hackath
 
 ## Team
 Muazzam Ali, Amanullah Tariq, Zaid ur Rehman, Shayan Jamal, Rozitha, Stefine 
-![](public/team.jpg)
+
 
 ## Contact
 #### Developer/Projects spokesman
