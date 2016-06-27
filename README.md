@@ -1,8 +1,10 @@
 ![](www/images/neulogo.png) </br>
-An mockup app for helping newcomers in Freiburg, Germany and get rewards.
-Work in progress. Coming fairly soon to a github repository near you.
-
 ## Idea
+An mockup app for helping newcomers in Freiburg, Germany and get rewards.
+Work in progress. Coming fairly soon to a github repository.
+
+## Award
+Won 1st prize in Freiburg Hackathon 2016 (https://hackathon-freiburg.de/#hackathon-2016)
 
 ![](public/screenshot.png)
 
@@ -20,10 +22,8 @@ Muazzam Ali, Amanullah Tariq, Zaid ur Rehman, Shayan Jamal, Rozitha, Stefine
 #### Developer/Projects spokesman
 * Homepage: 
 * e-mail: 
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle "twitterhandle on twitter")
 * other communication/social media
 
 ## License 
-* see [LICENSE](https://github.com/username/sw-name/blob/master/LICENSE.md) file
 
 
