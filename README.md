@@ -1,4 +1,4 @@
-<img src="www/images/neulingo.png" width="600px"/> </br>
+<img src="www/images/neulogo.png" > </br>
 ## Idea
 An mockup app for helping newcomers in Freiburg, Germany and get rewards.
 Work in progress. Coming fairly soon to a github repository.
